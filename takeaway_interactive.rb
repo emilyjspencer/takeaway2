@@ -32,10 +32,10 @@ def process(selection)
 end
 
 def print_menu
-  puts "*****************************************"
-  puts "Sin City Slice"
-  puts "Great Pizza, Every Time"
-  puts "*****************************************"
+  puts "*****************************************".center(150)
+  puts "Sin City Slice".center(150)
+  puts "Great Pizza, Every Time".center(150)
+  puts "*****************************************".center(150)
 end
 
 def add_to_order
